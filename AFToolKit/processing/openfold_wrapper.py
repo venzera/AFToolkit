@@ -25,7 +25,7 @@ class OpenFoldWrapper:
     def __init__(
             self,
             feature_list=None,
-            device="mps",
+            device="cpu",
             inference_n_recycle=1,
             always_use_template=False,
             side_chain_mask=False,
